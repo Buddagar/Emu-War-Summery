@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Emu War</title>
+    <link rel="stylesheet" href="main.css">
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  height:10px;
+
+}
+
+input[type=submit] {
+  background-color: #5d83a2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  height:100px;
+position:fixed;
+float:right;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #6b6996;
+  padding: 20px;
+  height:300px;
+position:fixed;
+float:right;
+}
+body{
+background-color:rgb(96, 124, 153);
+margin-left:3px;
+margin-right:3px;
+}
+.Center1{
+color: rgb(52, 235, 186);
+position:relative;
+left:600px;
+}
+.regular-text{
+font-size:25px;
+color: rgb(69, 189, 237);
+}
+#image1 {
+float:right;
+margin-right:10px;
+margin-bottom:5px;
+}
+</style>
+</head>
+<body>
+    <!--Menu Bar-->
+    <div>
+        <ul class="sidenav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="page1.html">Cause</a></li>
+            <li><a href="page2.html">Effect</a></li>
+            <li><a href="page3.html">Summery</a></li>
+        </ul>
+    </div>
+
+    <h1 class="Center1"> The Great Emu War </h1>
+	<p class="regular-text",> The Great Emu War, which lasted from November 2nd till the 10th of December, 1932, was a war taking place in 
+Australia that had many causes and many effects. This website is here show the causes that kickstarted the war, and effects of those causes
+that is known now, as the Emu war
+that most of the world seems unaware of. Causes such as superior weaponry, led to effects such as Bounties, and certain important people like
+Major Meridith led to many major events occuring. This war may not have done much, and may not have lasted long, and not much even happened, but
+it is one of the rare examples of Man v.s Nature warfare. <br> Contact me at:tbfreeland@yahoo.com and Submit the form below, i would like to know which country take the most intrest in information such as this.
+ <img src="https://cdn.britannica.com/78/6078-050-8F090B59/Flag-Australia.jpg" width=10% id="image1"> </p> 
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:30px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+
+</html>
